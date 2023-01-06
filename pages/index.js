@@ -50,9 +50,9 @@ const Home = () => {
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           {theme && theme === "dark" ? (
-            <SunIcon className="h-6 w-6" />
+            <SunIcon className="h-6 w-6" aria-label="toggleDark" />
           ) : (
-            <MoonIcon className="h-6 w-6" />
+            <MoonIcon className="h-6 w-6" aria-label="toggleDark" />
           )}
         </button>
         <RightMenu />

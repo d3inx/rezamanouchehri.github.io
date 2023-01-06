@@ -14,7 +14,7 @@ const AboutMe = () => {
   return (
     <div>
       <h2 className="w-fit text-5xl xl:text-6xl">درباره من</h2>
-      <p className="mt-8 w-3/4 text-justify text-lg tracking-wide xl:mt-12 xl:indent-8 xl:text-xl xl:leading-8">
+      <p className="mt-8 w-3/4 text-justify text-lg tracking-wide xl:mt-12 xl:text-xl xl:leading-8">
         {about}
       </p>
     </div>

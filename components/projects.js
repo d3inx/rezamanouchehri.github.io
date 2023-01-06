@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <div>
-      <h2 className="w-fit text-5xl xl:text-6xl">سوابق کاری</h2>
+      <h2 className="w-fit text-5xl xl:text-6xl">نمونه کار ها</h2>
       <div className="mt-20 flex flex-row flex-wrap">
         {data.map(({ name, description, link }) => (
           <div className="w-full xl:w-1/2" key={name}>
