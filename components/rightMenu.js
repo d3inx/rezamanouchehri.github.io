@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 
 import { SiGithub, SiLinkedin, SiTelegram } from "react-icons/si";
 
-import ProfilePic from "./../public/image/IMG_20221217_204902.jpg";
+import ProfilePic from "./../public/image/personal-profile.jpg";
 
 import Link from "next/link";
 
